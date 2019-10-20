@@ -1,7 +1,11 @@
 {
     "compilerOptions": {
         "baseUrl": ".",
-        "paths": {},
+        "paths": {
+            "c/nouislider": [
+                "../staticresources/nouislider/nouislider.js"
+            ]
+        },
         "experimentalDecorators": true
     },
     "include": [
